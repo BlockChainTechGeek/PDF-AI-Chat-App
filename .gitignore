@@ -26,3 +26,5 @@ Thumbs.db
 # Project specific
 faiss_index.npy
 processed_chunks.joblib.DS_Store
+faiss_index.pkl
+processed_chunks.joblib
