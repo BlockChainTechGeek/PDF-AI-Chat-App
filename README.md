@@ -30,20 +30,20 @@ You can also use your preferred language model if you believe it will be more ef
 - Download your chosen model and place it in a directory of your choice.
 - Update the MODEL_PATH in the .env file to point to your custom model.
 
-### Example:
-
-- MODEL_PATH=/path/to/your/custom_model.gguf
-- Note: The performance and compatibility of custom models may vary. Ensure your system meets the requirements for running your chosen model.
+Note: The performance and compatibility of custom models may vary. Ensure your system meets the requirements for running your chosen model.
 
 ## Installation
 
 1. Clone this repository:
-   git clone https://github.com/yourusername/ai-pdf-chat-assistant.git
+   ```
+   git clone https://github.com/BlockChainTechGeek/ai-pdf-chat-assistant.git
    cd ai-pdf-chat-assistant
-   
+   ```
 
 2. Install required packages:
+   ```
    pip install -r requirements.txt
+   ```
 
 3. Set up environment variables:
    - Copy `.env.example` to `.env`
@@ -54,7 +54,9 @@ You can also use your preferred language model if you believe it will be more ef
    - Place it in a directory and update the MODEL_PATH in your .env file
 
 5. Run the Streamlit app:
+   ```
    streamlit run app.py
+   ```
 
 ## Usage
 
